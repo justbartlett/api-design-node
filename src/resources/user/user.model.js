@@ -1,3 +1,9 @@
+// REST API
+// 1) design your data with the schemas
+// 2) convert those to models
+// 3) have your controllers use the models to query and perform crud on the models
+// 4) resources activate the controllers
+
 import mongoose from 'mongoose'
 import bcrypt from 'bcrypt'
 

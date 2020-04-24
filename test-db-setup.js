@@ -24,6 +24,8 @@ const remove = collection =>
     })
   })
 
+// connect to a database before each describe block and then delete that database
+
 beforeEach(async done => {
   const db = cuid()
   function clearDB() {
